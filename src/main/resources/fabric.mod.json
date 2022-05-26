@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "cavier_caves",
+  "version": "${version}",
+  "name": "CavierCaves",
+  "description": "",
+  "authors": [
+    "creoii"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/cavier_caves/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "com.github.creoii.cavier_caves.client.CavierCavesClient"
+    ],
+    "main": [
+      "com.github.creoii.cavier_caves.main.CavierCaves"
+    ]
+  },
+  "mixins": [
+    "cavier_caves.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.5",
+    "minecraft": "1.18.2"
+  }
+}

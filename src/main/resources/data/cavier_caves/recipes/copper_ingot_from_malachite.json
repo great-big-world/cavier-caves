@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "cavier_caves:malachite"
+  },
+  "result": "minecraft:copper_ingot",
+  "experience": 0.75,
+  "cookingtime": 600
+}
